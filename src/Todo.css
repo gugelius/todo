@@ -1,0 +1,65 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.app {
+  width: 70%;
+}
+.count{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.in-area {
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+}
+.in-field {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: lightgray;
+  width: 77%;
+  padding: 10px;
+}
+button {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  background-color:#b0dd61;
+  width: 20%;
+  padding: 10px;
+}
+button:hover{
+  background-color:#8aae4c;
+}
+.todos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow-wrap: break-word;
+  width: 97%;
+  padding: 10px;
+  margin: 3px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.todos:hover .todotext{
+  width: 95%;;
+}
+.delete {
+  display: none;
+}
+.todos:hover .delete{
+  display: block;
+  width: 5%;
+  height: 19px;
+  background: url('pomoika.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+} 
+
